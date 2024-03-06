@@ -2,8 +2,8 @@ OK_FORMAT = True
 
 test = {   'name': 'q1_1',
     'points': None,
-    'suites': [   {   'cases': [   {'code': '>>> print(len(ab_test_order) == 6)\nTrue\n', 'hidden': False, 'locked': False},
-                                   {'code': '>>> correct_order = make_array(5, 1, 3, 2, 4, 6)\n>>> print(all(correct_order == ab_test_order))\nTrue\n', 'hidden': False, 'locked': False}],
+    'suites': [   {   'cases': [   {'code': '>>> print(len(ab_test_order) == 6)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> correct_order = make_array(5, 1, 3, 2, 4, 6)\n>>> print(all(correct_order == ab_test_order))\nTrue', 'hidden': False, 'locked': False}],
                       'scored': True,
                       'setup': '',
                       'teardown': '',
